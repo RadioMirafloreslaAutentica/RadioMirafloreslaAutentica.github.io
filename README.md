@@ -1,16 +1,28 @@
-## Hi there 👋
+# Mi Portal de Noticias
 
-<!--
-**RadioMirafloreslaAutentica/RadioMirafloreslaAutentica** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Web de noticias con videos, reels e imágenes.
 
-Here are some ideas to get you started:
+## Cómo agregar contenido
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Video de YouTube
+1. Ve al video en YouTube
+2. Clic en "Compartir" → "Insertar"
+3. Copia el código del iframe
+4. Reemplaza el src en el HTML
+
+### Reel de Instagram
+1. Ve al reel en Instagram
+2. Clic en `⋯` → "Insertar"
+3. Copia el código
+4. Reemplaza el data-instgrm-permalink
+
+### Video de TikTok
+1. Ve al video en TikTok
+2. Clic en "Compartir" → "Insertar"
+3. Copia el código
+4. Reemplaza el cite y data-video-id
+
+### Imágenes
+1. Sube la imagen a un servicio como Imgur o usa URLs directas
+2. Reemplaza el src en la etiqueta img
+3. Actualiza el alt y figcaption
